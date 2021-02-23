@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<widget
+ id = "ar.com.ingverger.memorioso"
+ versionCode = "20003"
+ version  = "2.0.3" >
+
+ <name>MEMORIOSO</name>
+
+ <description>
+ 		Memorioso es un juego que ejercita y desafia tu concentracion y memoria. 
+		Sobre el tablero se colocan pares de imagenes iguales. El juego consiste en detectar esos pares. 
+		Se elige un par de imagenes que se mostraran durente un segundo. Si las imagenes son iguales se retiran del tablero.
+		Las imagenes no cambian su lugar durante el juego. La memoria interviene recordando los lugares donde las imagenes eran iguales.
+		El juego finaliza una vez que se han detectado todos los pares.		
+		Existen varios niveles de dificultad dados por la cantidad de imagenes que se presentan.
+		La mecanica del juego es simple, sin embargo requiere memoria para facilitar la ubicacion adecuada de los pares de imagenes.
+ </description>
+
+ <author href="http://www.ingverger.com.ar" email="ingverger@gmail.com">
+  Guillermo Verger
+ </author>
+
+ <preference name="android-targetSdkVersion"  value="28" /> 
+ <preference name="orientation" value="landscape" />  <!-- all: default means both landscape and portrait are enabled -->
+
+ <content src="index.html" />
+ <access origin="*" />
+
+ <platform name="android">
+  <allow-intent href="market:*" />
+  <icon   src="icon.png" />
+ </platform>
+
+</widget>
