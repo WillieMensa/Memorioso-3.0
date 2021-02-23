@@ -1,0 +1,163 @@
+--------
+memorioso
+--------
+
+Esquema de trabajo para generar una palicacion con cordova
+
+1/ Copiar este archivo y reemplazar memorioso con el nombre de la aplicacion
+
+************************************************************
+
+-----------------------------------------------------------
+3/ PROCESO DE CREACION Y ELABORACION, COMPILACION ETC.
+
+Creacion de carpeta
+	cordova create memorioso_cordova ar.com.ingverger.memorioso memorioso
+
+- opcion para usar template
+	cordova create memorioso_cordova ar.com.ingverger.memorioso memorioso --template phonegap-template-blank
+	cordova create memorioso_cordova2 ar.com.ingverger.memorioso memorioso --template cordova-template-sample
+	cordova create memorioso_cordova3 ar.com.ingverger.memorioso memorioso --template e:\Dropbox\GitHub\pentomania_cordova
+	cordova create memorioso_cordova4 ar.com.ingverger.memorioso memorioso --template aerophane
+	cordova create memorioso_cordova5 ar.com.ingverger.memorioso memorioso --template phonegap-template-jquery
+
+Agregado de plataformas
+	cd memorioso_cordova
+	cordova platform add android browser
+
+List available and installed platforms with version numbers. This is useful to find version numbers when reporting issues:
+	cordova platform ls
+
+Save versions of all platforms currently added to the project to config.xml & package.json
+	cordova platform save
+
+
+Para compilar en modo release (stack...)
+	Colocar el memorioso.keystore en la carpeta .../www
+
+Create a file called release-signing.properties and put in APPFOLDER\platforms\android folder 
+	copy con release-signing.properties
+	contenido:
+		storeFile=memorioso.keystore
+		storeType=jks
+		keyAlias=memorioso
+		keyPassword=termopilas
+		storePassword=termopilas
+
+Desde la carpeta www ordenes para compilar
+	cordova build android --release 
+	cordova build --release
+	cordova build --release --info
+
+Compilacion resultante en:
+	E:\Dropbox\GitHub\memorioso_cordova\platforms\android\app\build\outputs\apk\release\app-release.apk
+
+Compilacion de .aab
+
+	cordova build android --bundle --release
+
+	cordova build android --debug -- --packageType=bundle
+	cordova build android --release -- --packageType=bundle
+
+
+cordova platform add https://github.com/breautek/cordova-android.git#app-bundle
+
+
+***********************************************************************
+GENERACION ARCHIVO DE CLAVES
+===================================================
+Generacion de claves para keystore
+===================================================
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -alias memorioso -genkeypair -v -keyalg RSA -keypass termopilas -keysize 2048 -keystore memorioso.keystore -storepass termopilas -validity 10000 
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" 
+ -alias memorioso 
+ -genkeypair -v 
+ -keyalg RSA 
+ -keypass termopilas
+ -keysize 2048 
+ -keystore memorioso.keystore 
+ -storepass termopilas
+ -validity 10000
+
+-----------------------------------------------------------------------
+De la siguiente forma se genero el almacen de claves para este producto
+-----------------------------------------------------------------------
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -alias memorioso -genkeypair -v -keyalg RSA -keypass termopilas -keysize 2048 -keystore memorioso.keystore -storepass termopilas -validity 10000
+¿Cuáles son su nombre y su apellido?
+  [Unknown]:  Willie Verger
+¿Cuál es el nombre de su unidad de organización?
+  [Unknown]:  unipersonal
+¿Cuál es el nombre de su organización?
+  [Unknown]:  Clever Games
+¿Cuál es el nombre de su ciudad o localidad?
+  [Unknown]:  Rosario
+¿Cuál es el nombre de su estado o provincia?
+  [Unknown]:  Santa Fe
+¿Cuál es el código de país de dos letras de la unidad?
+  [Unknown]:  ar
+¿Es correcto CN=Willie Verger, OU=unipersonal, O=Clever Games, L=Rosario, ST=Santa Fe, C=ar?
+  [no]:  si
+
+Generando par de claves RSA de 2.048 bits para certificado autofirmado (SHA256withRSA) con una validez de 10.000 días
+        para: CN=Willie Verger, OU=unipersonal, O=Clever Games, L=Rosario, ST=Santa Fe, C=ar
+[Almacenando memorioso.keystore]
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -importkeystore -srckeystore memorioso.keystore -destkeystore memorioso.keystore -deststoretype pkcs12
+
+
+
+------------------------------------------------------------
+Analizando ejemplos en
+	e:\Google Drive\Web_Dev\_ejemplos\web-basic-samples-master\
+
+en aplicaciones vinculadas aparece este numero
+	125484816982
+
+-----------------------------------------------------------------------------------------------
+ID de cliente vinculado correctamente
+125484816982-ib6bh040hplk6pbjec3qkhgok7n88b1o.apps.googleusercontent.com
+---------------------------------------------------------------------------
+
+Puedes vincular un máximo de 20 aplicaciones en total. Las aplicaciones que vinculas y que luego eliminas también se consideran parte de este máximo. 
+Hasta el momento, vinculaste 1 de 20. 
+---------------------------------------------------------------------------
+
+
+memorioso, un juego de razonamiento y paciencia.
+Gratuita | Android
+ID de la aplicación: 
+content_copy
+Pasos siguientes
+Tome nota del nuevo ID de su aplicación. Deberá agregarlo al código fuente de su aplicación para poder ejecutar AdMob.
+Cree un bloque de anuncios para mostrar anuncios en su aplicación.
+
+--------------------------------------
+DESCRIPCION
+
+memorioso es ....
+¿En que consiste?
+.....
+
+Texto de aplicaciones similares
+
+
+-----------------------------
+Traduccion
+
+
+
+************************************************************
+
+
+
+En phonegap build
+name/title	memorioso
+alias		memorioso
+keystore pass	termopilas
+
+
+
+ANDROID_SDK_ROOT=undefined (recommended setting)
+ANDROID_HOME=C:\Users\Verger Guillermo\AppData\Local\Android\sdk (DEPRECATED)

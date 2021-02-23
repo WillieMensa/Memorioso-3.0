@@ -1,0 +1,84 @@
+
+manejo de *.json
+	http://renderhjs.net/shoebox/
+	https://github.com/twolfson/gulp.spritesmith
+both are free.
+
+
+--------------------------------------
+Juegos similares
+	Memory Tiles (frances)
+
+
+
+	Key Id  Title                                  Status    Last Used   Uploaded
+	------  -------------------------------------  --------  ----------  ----------
+	339924  SUMADO                                 LOCKED    2018-10-11  2018-08-10
+	339969  almacendeclaves                        LOCKED    2018-08-10  2018-08-10
+	360002  Alamacen de claves 20181224            LOCKED    2018-12-24  2018-12-24
+	no	360003  meorioso                               LOCKED    2019-01-05  2018-12-24
+	no	361200  Memoria y concentracion                LOCKED    2019-01-05  2019-01-05
+	no	361754  memorioso2                             LOCKED    2019-01-09  2019-01-09
+	361772  memorioso                              LOCKED    2019-01-17  2019-01-09
+
+
+=============================================================
+NOTAS SOBRE CONCENTRACION Y MEMORIA
+=============================================================
+
+en http://duplicatumemoria.com/blog/la-tecnica-de-los-2-minutos-para-mejorar-la-concentracion.html
+
+La concentración es uno de los pilares de una buena memoria y del aprendizaje. Las capacidades de atender y mantenerse concentrado son fundamentales para nuestra memoria y para conseguir buenos resultados y aprender de forma eficaz (mejor y en menos tiempo).
+Concentrarse es centrar toda la atención y enfocarse en un solo estímulo de nuestro interés, ignorando y desechando todos los demás que nos llegan a través de nuestros sentidos y que intentan llamar tu atención para pasar a tu foco. Estas distracciones disminuyen de forma drástica nuestro rendimiento en diferentes áreas de nuestra vida (en el trabajo, en los estudios, e incluso en nuestra propia vida personal y familiar).
+La concentración es una habilidad que, como un músculo,  puede ejercitarse y entrenarse, para mejorarla y desarrollarla para que trabaje mejor en nuestro beneficio.
+
+-----------------------------------------------------------
+
+
+COMPILACION PHONEGAP desde la linea de comando
+
+codigo de la aplicacion memorios en Phonegap: 3414713
+
+# Sign-in to PhoneGap Build. login
+  pgb login
+
+  You will be prompted for Adobe ID and password. Once authenticated your
+  authentication token will be saved at ~/.pgbrc. Your Adobe ID and
+  password is not stored.
+  Adobe	ingverger@gmail.com	m0z4mB1qu3	ingverger@gmail.com
+
+
+# create a new app from a github repo
+> pgb new shazamable/repoodly
+
+
+# list your apps
+> pgb ls
+
+
+# actualizar el codigo en Phonegap
+  pgb update 3414713
+  pgb pull 3414713
+
+
+# unlock	Unlock a signing key
+pgb unlock android 361772 key_password=termopilas keystore_password=termopilas
+//	Keystore Password: **********   <--- termopilas
+//	Private Key Password: **********   <--- termopilas
+//	android key 361772 unlocked
+pgb unlock android 3414713 key_password=termopilas keystore_password=termopilas
+
+# construir/compilar la aplicacion
+pgb build 3414713
+
+
+
+#descargar la aplicacion en carpeta dropbox/public
+  pgb download 3414713 android e:\Dropbox\GitHub\Memorioso\.privado\apk\
+
+https://build.phonegap.com/apps/3414713/download/android/?qr_key=o1ZWQFqH26stWAkGASL5
+
+https://build.phonegap.com/apps/3414713/install/o1ZWQFqH26stWAkGASL5
+
+
+

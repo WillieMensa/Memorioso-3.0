@@ -1,0 +1,91 @@
+Descripcion
+
+
+Memorioso is a game that challenges your concentration and memory. 
+There are different groups of images. You choose the group within which there will be pairs of identical images that you should detect.
+There are several levels of difficulty given by the number of images presented.
+The mechanics of the game is simple, however it requires memory to facilitate the proper placement of pairs of images.
+
+
+Memorioso es un juego que desafía tu concentración y memoria. 
+Existen diferentes grupos de imágenes. Tu eliges el grupo dentro del cual habrá pares de imágenes iguales que debes detectar. 
+Existen varios niveles de dificultad dados por la cantidad de imágenes que se presentan.
+La mecánica del juego es simple, sin embargo requiere memoria para facilitar la ubicación adecuada de los pares de imágenes.
+
+
+-----------------------------
+QR Widgets para instalar aplicacion
+
+<iframe src="http://www.appsgeyser.com/social_widget/social_widget.php?width=100&height=80&apkName=MEMORIOSO_7191649&simpleVersion=yes" width="180" height="220" vspace="0" hspace="0" frameborder="no" scrolling="no" seamless="" allowtransparency="true"></iframe>
+
+
+package name en AppGeyser
+wMEMORIOSO_7191649
+
+
+-------------------------------------------
+Redirect users to your app
+Place this code on your website to notify all your Mobile users that you have your own App. When user visits your website from mobile device he will see notification similar to this one:
+
+<script type="text/javascript" src="http://www.appsgeyser.com/js/appsgeyser_redirect_page.js"></script>
+                                    </div>
+<script type="text/javascript">
+    appsgeyserRedirect.init({
+        url: "http://app.appsgeyser.com/7191649/MEMORIOSO",
+        alertFrequency: "once"
+    }).redirectPage();
+</script>
+
+
+<iframe src="http://www.appsgeyser.com/social_widget/social_widget.php?width=300&height=160&apkName=MEMORIOSO_7191649&simpleVersion=no" width="310" height="180" vspace="0" hspace="0" frameborder="no" scrolling="no" seamless="" allowtransparency="true"></iframe>
+
+--------------------------------
+29/5/2018
+Published in Mobango 
+http://developer.mobango.com/view/myitemdetails.php?cid=2124609
+
+
+----------------------------------------------
+Identificador de la publicacion en Play Store
+ca-app-pub-8301751512549490~5341690703
+
+9/8/2018
+
+Resumen de reseñas
+Errores
+Soluciona estos errores para iniciar el lanzamiento de esta versión.
+
+Tu app tiene un APK con código de versión 1533778562 que solicita los siguientes permisos: 
+android.permission.RECORD_AUDIO, android.permission.READ_PHONE_STATE, android.permission.GET_ACCOUNTS. 
+Las apps que usan estos permisos en un APK deben establecer una política de privacidad.
+
+Advertencias
+Revisa estas advertencias antes de iniciar el lanzamiento de esta versión.
+Como no especificaste los verificadores, esta versión no estará disponible para ningún usuario. Sugerencia: Configura tu pista de prueba para garantizar que la versión esté disponible para los verificadores.
+
+
+*************************
+codigo a incluir para AdMob
+ID de la aplicación: ca-app-pub-4076082038101002~5465065359
+
+codigo para anuncios intersticiales
+ca-app-pub-4076082038101002/2949339385
+
+codigo de anuncios tipo banner
+ca-app-pub-4076082038101002/2921419225
+
+----------------------------------
+Datos de AdSense
+ID de editor	
+pub-4076082038101002
+ 
+ID de cliente	
+8862516718
+ 
+Zona horaria
+(UTC-03:00) Buenos Aires
+editar
+ 
+Productos activos	
+AdMob
+ 

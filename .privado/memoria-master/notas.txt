@@ -1,0 +1,4 @@
+MEMORIA-MASTER
+
+Esta carpeta contiene codigo de varios origenes para generar un juego de memoria (y concentracion) de diversas maneras.
+

@@ -1,0 +1,36 @@
+
+Instalacion de Google fonts
+
+Share this selection
+https://fonts.google.com/selection?category=Sans+Serif,Display&selection.family=Bangers|Covered+By+Your+Grace|Kalam|Titan+One
+
+1. Embed
+To embed these fonts into a webpage, copy this code into the <head> of your HTML document.
+
+STANDARD @IMPORT
+<link href="https://fonts.googleapis.com/css?family=Bangers|Covered+By+Your+Grace|Kalam|Titan+One" rel="stylesheet">
+2. Specify in CSS
+Use the following CSS properties to specify these families:
+
+font-family: 'Kalam', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Titan One', cursive;
+For examples of how fonts can be added to webpages, see the getting started guide.
+
+STANDARD @IMPORT
+<link href="https://fonts.googleapis.com/css?family=Bangers|Carter+One|Covered+By+Your+Grace|Kalam|Luckiest+Guy|Sigmar+One|Titan+One" rel="stylesheet">
+
+font-family: 'Kalam', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Titan One', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Carter One', cursive;
+For examples of how fonts can be added to webpages, see the getting started guide.
+
+
+Good explanation of font loading in
+	https://medium.com/@matuzo/getting-started-with-css-font-loading-e24e7ffaa791
+

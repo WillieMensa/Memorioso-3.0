@@ -1,0 +1,96 @@
+<!doctype>
+<html>
+	<head>
+		<title>Memory Tiles</title>
+		<meta charset='utf-8' />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel='stylesheet' href='css/main.css' />
+	</head>
+	<body class="noselect">
+		<header>
+			<div class='container'>
+				<div class='row' >
+					<h1><img src='./images/myLogo.jpg'/>Memory Tiles Game in Javascript</h1>
+				</div>
+			<div>	
+		</header>
+		<audio id='my-sound' 'hidden='true' autostart='false' ></audio>
+		<div id='game-ui' class='container'>
+			<div  class='row'>
+				<div class='col-md-3'>
+					<fieldset>
+						<legend>Board Size</legend>
+						<div id='boardSize'>
+							<div class='form-group' >
+								<div class='input-group' >
+									<span class='input-group-addon label-primary' id='col'>Column Count:</span>
+									<input type='range' id='colCount' min=2 max=8 step=2 value=6 class='form-control label-success' aria-describedby='col' title='Drag slider to set column count' />
+									<span class='input-group-addon label-info' id='colValue' >6</span>
+								</div>
+							</div>		
+							<div class='form-group' >
+								<div class='input-group' >
+									<span class='input-group-addon label-primary' id='row' >Row Count:</span>
+									<input type='range' id='rowCount' min=2 max=8 step=1 value=4 class='form-control label-success' aria-describedby='row' title='Drag slider to set row count' />
+									<span class='input-group-addon label-info' id='rowValue' >4</span>
+								</div>
+							</div>
+							<button id='bttnPlayGame' class='btn btn-primary btn-lg active pull-right'>Play Game</button>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend>Score Board</legend>
+						<div class='form-group' >
+							<div class='input-group' >
+								<span class='input-group-addon' id='matched'>Matched Tiles:</span>
+								<label id='matchCount' class='form-control label-success counters' aria-describedby='matched' >4 x </label>
+								<span class='input-group-addon label-primary values' id='matchValue' >0</span>
+							</div>
+						</div>		
+						<div class='form-group' >
+							<div class='input-group' >
+								<span class='input-group-addon' id='mis-matched'>Mis-matched Tiles:</span>
+								<label id='misMatchCount' class='form-control label-danger counters' aria-describedby='mis-matched'>-2 x </label>
+								<span class='input-group-addon label-primary values' id='misMatchValue' >0</span>
+							</div>
+						</div>
+						<div class='form-group' >
+							<div class='input-group' >
+								<span class='input-group-addon' id='bonus'>Bonus Score:</span>
+								<label id='bonusCount' class='form-control label-info counters' aria-describedby='bonus'>6 x </label>
+								<span class='input-group-addon label-primary values' id='bonusValue' >0</span>
+							</div>
+						</div>
+						<div class='form-group' >
+							<div class='input-group' >
+								<span class='input-group-addon' id='total'>Total Score:</span>
+								<label id='totalScore' class='form-control label-primary counters' aria-describedby='total'>0</label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+				<div class='col-md-9' >
+					<fieldset>
+						<legend>Tile Board</legend>
+						<div class='form-group' >
+							<button id='bttnScramble' class='btn btn-primary btn-lg active'>Scramble Tiles</button>
+						</div>
+						<div class='form-group' >
+							<canvas id='board' width='452' height='374'>Canvas is not supported in this browser.</canvas>
+							<canvas id='buffer' width='470' height='244' class='hidden-canvas'>Canvas is not supported in this browser.</canvas>
+							<canvas id='tracker' width='452' height='374' class='hidden-canvas' >Canvas is not supported in this browser.</canvas>
+						</div>
+					</fieldset>
+				</div>
+			</div>
+		</div>
+		</br>
+		
+		<script src = 'js/mtg-sound.js'></script>
+		<script src = 'js/mtg-board.js'></script>
+		<script src = 'js/mtg-ui.js'></script>
+		<script src = 'js/main.js'></script>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+Configurar una prueba abierta, cerrada o interna
+
+Requisitos de correo electrónico: para participar en una prueba, los usuarios necesitan una cuenta de Google (@gmail.com) o de G Suite.
+
+
+Opiniones: los testers no pueden enviar opiniones públicas.
+
+¿En qué se diferencian las pruebas abiertas, cerradas e internas?
+
+Interna: distribuye tu aplicación rápidamente para hacer pruebas internas y evaluaciones de calidad. 
+
+Cerrada (alfa): crea una versión cerrada para hacer pruebas de versiones preliminares de tu aplicación con un conjunto de testers algo más amplio. 
+Si vas a probar una aplicación que has publicado anteriormente, solo los usuarios de tu grupo de prueba recibirán una actualización de la versión cerrada.
+
+Abierta (beta): crea una versión abierta para hacer una prueba con un grupo amplio de usuarios y que aparezca en Google Play.
+Si realizas una prueba abierta, cualquiera puede participar en ella y enviarte comentarios privados. 
+Antes de elegir esta opción, comprueba que la aplicación y la ficha de Play Store estén listas para mostrarse en Google Play.
+
+cuestionario en sitio web
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScQdck5U3WVQhUNSDv_Eo4AtaRW9LZuujZb70y239M8zU857A/viewform?embedded=true" width="640" height="1132" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+
+https://docs.google.com/forms/d/e/1FAIpQLScQdck5U3WVQhUNSDv_Eo4AtaRW9LZuujZb70y239M8zU857A/viewform?embedded=true
+
