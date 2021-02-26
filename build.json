@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "memorioso.keystore",
+            "storePassword": "termopilas",
+            "alias": "memorioso",
+            "password" : "termopilas",
+            "keystoreType": "pkcs12"
+        },
+        "release": {
+            "keystore": "memorioso.keystore",
+            "storePassword": "termopilas",
+            "alias": "memorioso",
+            "password" : "termopilas",
+            "keystoreType": "pkcs12"
+        }
+    }
+}

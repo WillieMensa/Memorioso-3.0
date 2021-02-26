@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <widget
- id = "ar.com.ingverger.memorioso"
+ id = "ar.ingverger.memorioso"
  versionCode = "20001"
  version  = "2.0.1" >
 
@@ -17,7 +17,7 @@
 		La mecanica del juego es simple, sin embargo requiere memoria para facilitar la ubicacion adecuada de los pares de imagenes.
  </description>
 
- <author href="http://www.ingverger.com.ar" email="ingverger@gmail.com">
+ <author href="https://ingverger.ar/" email="ingverger@gmail.com">
   Guillermo Verger
  </author>
 

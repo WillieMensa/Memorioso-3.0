@@ -1,54 +1,58 @@
 # Registro de desarrollo
 
+## VERSIONES
+
+### version= "1.3.1"	21/12/2018**
+- Primer version para reemplazar la desarrollada con appsGeyser
+
+### Version 2.0.1	17/1/2019**
+- Version propia con ajustes en el tamaÃ±o de pantalla
+
+### VersiÃ³n 2.0.2	23/1/2019**
+- Ajustes menores para pasar de prueba interna a beta
+
+### version 2.0.3		27/3/2019
+- Racionalizacion de la cantidad de niveles de dificultad.
+- Correccion del problema de ocultamiento en la Ãºltima baldosita
+- Correciones varias
+
+### Version 3.0.1   25/2/2021
+- AdecuaciÃ³n logotipo al diseÃ±o pedido por google
+- Incorporar polÃ­tica de privacidad
+
+
+---
+
 Faltaria
 - invitacion a comentar el juego
 - indicacion de ayudas mas completas para jugar
 
-**version 2.0.3		27/3/2019
--	Racionalizacion de la cantidad de niveles de dificultad.
-- Correccion del problema de ocultamiento en la última baldosita
-- Correciones varias
 
-Rationalization of the number of difficulty levels.
-Rationalisierung der Anzahl der Schwierigkeitsgrade.
-
------------------------------
-
-**versi¢n 2.0.2   23/1/2019**
-- Ajustes menores para pasar de prueba interna a beta
-
-**Version 2.0.1		17/1/2019**
-- Version propia con ajustes en el tama¤o de pantalla
-
-**version= "1.3.1"	21/12/2018**
-- Primer version para reemplazar la desarrollada con appsGeyser
-
-
-
-# Observaciones, correcciones, sugerencias sobre la aplicación.
+# Observaciones, correcciones, sugerencias sobre la aplicaciï¿½n.
 
 ## Ezequiel
 Posibles mejoras para Memorioso:
-* En PC, mejorar la definición de las fuentes, la versión web tiene asperezas en los bordes de las letras
+* En PC, mejorar la definiciÃ³n de las fuentes, la versiÃ³n web tiene asperezas en los bordes de las letras
 * Disminuir el tiempo en que tardan en darse vuelta las dos fichas luego de hacer clic en la segunda
 * Automaticamente ocultar las dos fichas cuando se hace clic (o se toca la pantalla en el celular)
-* En celular, hacer que el tamaño de la grilla ocupe toda la pantalla, en la computadora es cómodo tener las fichas todas juntas pero en el celular se complica y se siente que se está "desperdiciando" espacio en los bordes
-* En PC, añadir una pequeña animación de sombra cuando uno pasa el mouse por arriba de las tarjetas para dar la sensación de que la aplicación funciona correctamente
-* Que la dificultad pueda manejarse con un slider en lugar de dos botones, ya que está acotada tanto por el extramo inferior como por el superior
-* Añadir botón para pausar y que al presionarlo se den vuelta todas las tarjetas (para no hacer trampa)
-* Añadir un botón para cancelar y volver al menú principal
-* Algunas estadísticas que podrían agregarse:
+* En celular, hacer que el tamaï¿½o de la grilla ocupe toda la pantalla, en la computadora es cï¿½modo tener las fichas todas juntas pero en el celular se complica y se siente que se estï¿½ "desperdiciando" espacio en los bordes
+* En PC, aï¿½adir una pequeï¿½a animaciï¿½n de sombra cuando uno pasa el mouse por arriba de las tarjetas para dar la sensaciï¿½n de que la aplicaciï¿½n funciona correctamente
+* Que la dificultad pueda manejarse con un slider en lugar de dos botones, ya que estï¿½ acotada tanto por el extramo inferior como por el superior
+* Aï¿½adir botï¿½n para pausar y que al presionarlo se den vuelta todas las tarjetas (para no hacer trampa)
+* Aï¿½adir un botï¿½n para cancelar y volver al menï¿½ principal
+* Algunas estadï¿½sticas que podrï¿½an agregarse:
 * Tiempo hasta encontrar el primer par (promedio)
-* Tiempo hasta resolución (promedio)
+* Tiempo hasta resoluciï¿½n (promedio)
 
 ## Garavelli
 * dibujos animados o dibujitos en lugar de iconos
 
 ## Guille Grinblat
 * Incluir una tabla de logros personales.
-* agregaría que la flechita para atrás vuelva al menu
-* un contador de jugadas además del tiempo
+* agregarÃ­a que la flechita para atrÃ¡s vuelva al menu
+* un contador de jugadas ademÃ¡s del tiempo
 * posibilidad de elegir diferentes figuras. Un set de figuras abstractas puede aumentar mucho la dificultad, por ejemplo"
 
 ## Propias
 * Textos adaptados a varios idiomas
+

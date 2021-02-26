@@ -1,0 +1,12 @@
+{
+  "cordova": {
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  },
+  "devDependencies": {
+    "cordova-android": "^9.0.0",
+    "cordova-browser": "^6.0.0"
+  }
+}
