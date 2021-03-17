@@ -1,0 +1,201 @@
+****************************
+GENERACION ARCHIVO DE CLAVES
+============================
+Generacion de claves para keystore
+===================================================
+
+Opciones de la Herramienta de Gestión de Certificados y Claves
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe"
+
+Comandos:
+
+ -certreq            Genera una solicitud de certificado
+ -changealias        Cambia un alias de entrada
+ -delete             Suprime una entrada
+ -exportcert         Exporta el certificado
+ -genkeypair         Genera un par de claves
+ -genseckey          Genera un clave secreta
+ -gencert            Genera un certificado a partir de una solicitud de certificado
+ -importcert         Importa un certificado o una cadena de certificados
+ -importpass         Importa una contraseña
+ -importkeystore     Importa una o todas las entradas desde otro almacén de claves
+ -keypasswd          Cambia la contraseña de clave de una entrada
+ -list               Enumera las entradas de un almacén de claves
+ -printcert          Imprime el contenido de un certificado
+ -printcertreq       Imprime el contenido de una solicitud de certificado
+ -printcrl           Imprime el contenido de un archivo CRL
+ -storepasswd        Cambia la contraseña de almacén de un almacén de claves
+
+Utilice "keytool -command_name -help" para la sintaxis de nombre_comando
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -alias memorioso  -keystore memorioso.keystore -printcrl
+sdfa
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -alias memorioso  -keystore memorioso.keystore -list
+
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -alias memorioso -genkeypair -v -keyalg RSA -keypass termopilas -keysize 2048 -keystore memorioso.keystore -storepass termopilas -validity 10000 
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe"  -alias memorioso  -genkeypair -v  -keypass termopilas -keysize 2048  -keystore memorioso.keystore  -storepass termopilas -validity 10000 -storeType PKCS12
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe"  -alias memorioso  -keystore memorioso.keystore  -storepass termopilas
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -genkey -alias memorioso -v -keystore memorioso.keystore  -validity 10000
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -importkeystore -srckeystore memorioso.keystore -destkeystore memorioso.keystore -deststoretype pkcs12"
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe"  -printcert -alias memorioso -keystore memorioso-01.keystore -keypass termopilas -storepass termopilas
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe"  -printcert -alias memorioso -keystore almacendeclaves.keystore -keypass termopilas -storepass termopilas
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe"  -printcert -alias memorioso -keystore almacendeclaves.keystore -keypass termopilas -storepass termopilas
+ 
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" 
+ -alias memorioso 
+ -genkeypair -v 
+ -keyalg RSA 
+ -keypass termopilas
+ -keysize 2048 
+ -keystore memorioso.keystore 
+ -storepass termopilas
+ -validity 10000
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -list  -keystore almacendeclaves.keystore -storepass termopilas
+
+
+memorioso.keystore 
+Huella Digital de Certificado (SHA1): 63:24:A4:16:B6:3E:D0:69:19:3C:03:AC:19:CC:8D:ED:C7:5B:8E:C6
+
+
+almacendeclaves.keystore
+
+Huella Digital de Certificado (SHA1): 3C:5D:A7:D6:93:DC:B4:0B:B8:05:50:8E:C0:BD:25:E5:8C:34:B9:21
+sumado, 10/08/2018, PrivateKeyEntry,
+
+Huella Digital de Certificado (SHA1): 5C:E7:19:92:1F:ED:05:8E:F5:AC:93:2A:1D:39:FD:0E:D7:30:BC:C1
+memorioso, 24/12/2018, PrivateKeyEntry,
+
+Huella Digital de Certificado (SHA1): 46:1B:99:ED:8C:67:DF:08:8B:FA:E5:DB:F8:DF:E5:4D:07:29:C5:CD
+mykey, 10/08/2018, PrivateKeyEntry,
+
+Huella Digital de Certificado (SHA1): C2:66:37:1A:22:09:86:C8:9D:B0:4F:D8:E4:5D:B9:DC:5D:D2:0C:69
+
+
+almacenclaves.keystore
+
+claves2021.keystore
+criptaritmos.keystore
+desbloqueame.keystore
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -list  -keystore KeyStore.keystore -storepass termopilas
+KeyStore.keystore
+
+KeyStore0.keystore
+memorioso-01.keystore
+memorioso-02.keystore
+memorioso-03.keystore
+mtimer.keystore
+mtimer01.keystore
+pentomania.keystore
+sumado.keystore
+sumaoculta.keystore
+unlockme.keystore
+
+
+certificado que se ha usado para firmar el APK que has subido tiene la huella digital
+SHA1: A4:96:09:CA:36:7F:7F:7A:FB:26:3C:52:0B:5E:4E:23:51:94:4C:4F
+
+
+-----------------------------------------------------------------------
+De la siguiente forma se genero el almacen de claves para este producto
+-----------------------------------------------------------------------
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -alias memorioso -genkeypair -v -keyalg RSA -keypass termopilas -keysize 2048 -keystore memorioso.keystore -storepass termopilas -validity 10000
+¿Cuáles son su nombre y su apellido?
+  [Unknown]:  Willie Verger
+¿Cuál es el nombre de su unidad de organización?
+  [Unknown]:  unipersonal
+¿Cuál es el nombre de su organización?
+  [Unknown]:  Clever Games
+¿Cuál es el nombre de su ciudad o localidad?
+  [Unknown]:  Rosario
+¿Cuál es el nombre de su estado o provincia?
+  [Unknown]:  Santa Fe
+¿Cuál es el código de país de dos letras de la unidad?
+  [Unknown]:  ar
+¿Es correcto CN=Willie Verger, OU=unipersonal, O=Clever Games, L=Rosario, ST=Santa Fe, C=ar?
+  [no]:  si
+
+Generando par de claves RSA de 2.048 bits para certificado autofirmado (SHA256withRSA) con una validez de 10.000 días
+        para: CN=Willie Verger, OU=unipersonal, O=Clever Games, L=Rosario, ST=Santa Fe, C=ar
+[Almacenando memorioso.keystore]
+
+"c:\Program Files\Android\Android Studio\jre\bin\keytool.exe" -importkeystore -srckeystore memorioso.keystore -destkeystore memorioso.keystore -deststoretype pkcs12
+
+
+
+------------------------------------------------------------
+Analizando ejemplos en
+	e:\Google Drive\Web_Dev\_ejemplos\web-basic-samples-master\
+
+en aplicaciones vinculadas aparece este numero
+	125484816982
+
+-----------------------------------------------------------------------------------------------
+ID de cliente vinculado correctamente
+125484816982-ib6bh040hplk6pbjec3qkhgok7n88b1o.apps.googleusercontent.com
+---------------------------------------------------------------------------
+
+Puedes vincular un máximo de 20 aplicaciones en total. Las aplicaciones que vinculas y que luego eliminas también se consideran parte de este máximo. 
+Hasta el momento, vinculaste 1 de 20. 
+---------------------------------------------------------------------------
+
+
+memorioso, un juego de razonamiento y paciencia.
+Gratuita | Android
+ID de la aplicación: 
+content_copy
+Pasos siguientes
+Tome nota del nuevo ID de su aplicación. Deberá agregarlo al código fuente de su aplicación para poder ejecutar AdMob.
+Cree un bloque de anuncios para mostrar anuncios en su aplicación.
+
+--------------------------------------
+DESCRIPCION
+
+memorioso es ....
+¿En que consiste?
+.....
+
+Texto de aplicaciones similares
+
+
+-----------------------------
+Traduccion
+
+
+
+************************************************************
+
+
+
+En phonegap build
+name/title	memorioso
+alias		memorioso
+keystore pass	termopilas
+
+
+
+ANDROID_SDK_ROOT=undefined (recommended setting)
+ANDROID_HOME=C:\Users\Verger Guillermo\AppData\Local\Android\sdk (DEPRECATED)
+
+
+2021.02.25 
+observaciones en la ultima subida
+
+Has subido un APK que no está firmado con el certificado de subida. Debes usar el mismo certificado. El certificado de subida tiene la huella digital
+SHA1: 63:24:A4:16:B6:3E:D0:69:19:3C:03:AC:19:CC:8D:ED:C7:5B:8E:C6
+, y el certificado que se ha usado para firmar el APK que has subido tiene la huella digital
+SHA1: A4:96:09:CA:36:7F:7F:7A:FB:26:3C:52:0B:5E:4E:23:51:94:4C:4F
+
+.
+Actualmente, el nivel de la API de destino de tu aplicación es el 28, pero debe ser al menos 29 para garantizar que se compile con las API más recientes, que ofrecen una seguridad y un rendimiento óptimos. Cambia el nivel de la API de destino de tu aplicación al nivel 29 como mínimo. Más información
+El nombre del paquete del APK o Android App Bundle debe ser ar.com.ingverger.memorioso.
+
+
+
+
